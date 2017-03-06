@@ -59,6 +59,12 @@
   <PropertyGroup>
     <RootNamespace>Ical.Net.Collections</RootNamespace>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>D:\_Tfs\Student\CampusNexus\Main\Cmc.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System.Core" />
     <!--  <Reference Include="Microsoft.CSharp" />
@@ -84,6 +90,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="D:\_Tfs\Student\CampusNexus\Main\Cmc.snk">
+      <Link>Cmc.snk</Link>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
